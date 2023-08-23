@@ -34,5 +34,5 @@ jobs:
         with:
           context: "${{ github.workspace }}"
           push: true
-          tags: daniel-mcdonough/caddy-dns:latest # update for your image
+          tags: danielmcdonough/caddy-dns:latest # update for your image
         if: steps.baseupdatecheck.outputs.needs-updating == 'true'

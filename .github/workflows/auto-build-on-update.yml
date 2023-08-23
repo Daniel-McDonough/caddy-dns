@@ -18,7 +18,7 @@ jobs:
         id: baseupdatecheck
         uses: lucacome/docker-image-update-checker@v1.2.1
         with:
-          base-image: caddy:builder:latest
+          base-image: caddy:builder
           image: danielmcdonough/caddy-dns # update for your image
 
       - name: Login to DockerHub
